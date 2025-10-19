@@ -1,9 +1,4 @@
 {
-  "statusLine": {
-    "type": "command",
-    "command": ".claude/statusline.sh",
-    "padding": 0
-  },
   "permissions": {
     "allow": [
       "Edit", "Write", "Read",
@@ -12,44 +7,35 @@
       "Bash(npx:*)", "Bash(nx:*)",
       "WebFetch",
       "Bash(git:*)",
-      "Edit(./src/**)" 
+      "Edit(./src/**)"
     ],
     "deny": [
       "Bash(rm:*)", "Bash(sudo:*)",
       "Read(./.env.*)", "Write(./.env.*)",
       "Read(./public/**)",
       "Read(./dist/**)",
-      "Read(./build/**)",        // Thường cũng nên chặn
-      "Read(./.next/**)",        // Next.js build
-      "Read(./coverage/**)",     // Test coverage
-      "Read(./public/**)",
-      "Write(./public/**)", 
+      "Read(./build/**)",
+      "Read(./.next/**)",
+      "Read(./coverage/**)",
+      "Write(./public/**)",
       "Edit(./public/**)",
       "Write(./dist/**)",
       "Edit(./dist/**)",
-      "Read(./coverage/**)",
       "Write(./coverage/**)",
       "Edit(./coverage/**)",
       "Read(./node_modules/**)",
       "Write(./node_modules/**)",
       "Edit(./node_modules/**)",
-      "Read(./dist/**)",
-      "Write(./dist/**)",
-      "Edit(./dist/**)",
-      "Read(./build/**)",
       "Write(./build/**)",
       "Edit(./build/**)",
-      "Read(./.next/**)",
       "Read(./out/**)",
       "Read(./.nuxt/**)",
       "Read(./.vite/**)",
-      "Read(./node_modules/**)",
       "Read(./.pnpm-store/**)",
       "Read(./.yarn/**)",
       "Read(./.cache/**)",
       "Read(./.vscode/**)",
       "Read(./.idea/**)",
-      "Read(./public/**)",
       "Read(./static/**)",
       "Read(./assets/**)",
       "Read(./uploads/**)"
