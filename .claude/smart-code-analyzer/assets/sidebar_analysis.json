@@ -1,0 +1,137 @@
+{
+  "summary": {
+    "total_files_analyzed": 3,
+    "total_lines_of_code": 433,
+    "total_issues": 13,
+    "average_complexity_score": 9.02,
+    "severity_breakdown": {
+      "high": 1,
+      "medium": 8,
+      "low": 4
+    },
+    "category_breakdown": {
+      "missing_memo": 3,
+      "heavy_import": 3,
+      "missing_usememo": 2,
+      "inline_functions": 2,
+      "large_file": 2,
+      "memory_leaks": 1
+    }
+  },
+  "issues": [
+    {
+      "category": "missing_memo",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without React.memo",
+      "suggestion": "Consider wrapping with React.memo for performance",
+      "performance_impact": "Medium - unnecessary re-renders"
+    },
+    {
+      "category": "heavy_import",
+      "severity": "medium",
+      "line": 1,
+      "code": "Heavy import: antd",
+      "suggestion": "Import specific components only",
+      "performance_impact": "High - increases bundle size"
+    },
+    {
+      "category": "missing_memo",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without React.memo",
+      "suggestion": "Consider wrapping with React.memo for performance",
+      "performance_impact": "Medium - unnecessary re-renders"
+    },
+    {
+      "category": "missing_usememo",
+      "severity": "medium",
+      "line": 1,
+      "code": "Expensive calculations without useMemo",
+      "suggestion": "Use useMemo for expensive calculations",
+      "performance_impact": "Medium - recalculation on every render"
+    },
+    {
+      "category": "inline_functions",
+      "severity": "low",
+      "line": 102,
+      "code": "Inline function in JSX",
+      "suggestion": "Use useCallback or define function outside render",
+      "performance_impact": "Low - new function created on every render"
+    },
+    {
+      "category": "inline_functions",
+      "severity": "low",
+      "line": 121,
+      "code": "Inline function in JSX",
+      "suggestion": "Use useCallback or define function outside render",
+      "performance_impact": "Low - new function created on every render"
+    },
+    {
+      "category": "heavy_import",
+      "severity": "medium",
+      "line": 1,
+      "code": "Heavy import: antd",
+      "suggestion": "Import specific components only",
+      "performance_impact": "High - increases bundle size"
+    },
+    {
+      "category": "large_file",
+      "severity": "low",
+      "line": 1,
+      "code": "Large file: 5278 lines",
+      "suggestion": "Consider splitting into smaller components",
+      "performance_impact": "Medium - large bundle size"
+    },
+    {
+      "category": "memory_leaks",
+      "severity": "high",
+      "line": 100,
+      "code": "setTimeout(",
+      "suggestion": "Cleanup intervals and listeners in useEffect",
+      "performance_impact": "High - memory usage grows over time"
+    },
+    {
+      "category": "missing_memo",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without React.memo",
+      "suggestion": "Consider wrapping with React.memo for performance",
+      "performance_impact": "Medium - unnecessary re-renders"
+    },
+    {
+      "category": "missing_usememo",
+      "severity": "medium",
+      "line": 1,
+      "code": "Expensive calculations without useMemo",
+      "suggestion": "Use useMemo for expensive calculations",
+      "performance_impact": "Medium - recalculation on every render"
+    },
+    {
+      "category": "heavy_import",
+      "severity": "medium",
+      "line": 1,
+      "code": "Heavy import: antd",
+      "suggestion": "Import specific components only",
+      "performance_impact": "High - increases bundle size"
+    },
+    {
+      "category": "large_file",
+      "severity": "low",
+      "line": 1,
+      "code": "Large file: 7988 lines",
+      "suggestion": "Consider splitting into smaller components",
+      "performance_impact": "Medium - large bundle size"
+    }
+  ],
+  "recommendations": [
+    "\u26a1 HIGH IMPACT: Address high-impact performance issues first",
+    "\ud83e\uddf9 Implement proper cleanup in useEffect hooks",
+    "\ud83d\ude80 Use React DevTools Profiler to identify bottlenecks",
+    "\ud83d\udcca Implement performance monitoring (Web Vitals)",
+    "\ud83d\udcbe Consider lazy loading for large components",
+    "\ud83d\udd27 Use production builds for performance testing",
+    "\ud83d\udcc8 Set up bundle analyzer for size optimization",
+    "\u26a1 Consider using React.Suspense for better UX"
+  ]
+}

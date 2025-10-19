@@ -1,0 +1,23 @@
+{
+  "summary": {
+    "total_files_analyzed": 0,
+    "total_lines_of_code": 0,
+    "total_issues": 0,
+    "average_complexity_score": 0,
+    "severity_breakdown": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "category_breakdown": {}
+  },
+  "issues": [],
+  "recommendations": [
+    "\ud83d\ude80 Use React DevTools Profiler to identify bottlenecks",
+    "\ud83d\udcca Implement performance monitoring (Web Vitals)",
+    "\ud83d\udcbe Consider lazy loading for large components",
+    "\ud83d\udd27 Use production builds for performance testing",
+    "\ud83d\udcc8 Set up bundle analyzer for size optimization",
+    "\u26a1 Consider using React.Suspense for better UX"
+  ]
+}

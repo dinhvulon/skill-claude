@@ -1,0 +1,2368 @@
+{
+  "summary": {
+    "total_files_analyzed": 84,
+    "total_issues": 290,
+    "severity_breakdown": {
+      "high": 0,
+      "medium": 58,
+      "low": 232
+    },
+    "category_breakdown": {
+      "missing_prop_validation": 40,
+      "missing_error_handling": 67,
+      "prop_validation": 5,
+      "naming_conventions": 35,
+      "missing_optimization": 37,
+      "too_many_imports": 20,
+      "code_smells": 36,
+      "accessibility_issues": 1,
+      "large_component": 8,
+      "file_naming": 3,
+      "inline_styles": 29,
+      "missing_keys": 9
+    },
+    "metrics": {
+      "total_files": 84,
+      "total_lines": 11938,
+      "total_code_lines": 11100,
+      "total_components": 114,
+      "total_hooks": 255,
+      "average_comment_ratio": 1.25,
+      "average_complexity": 4.06
+    }
+  },
+  "issues": [
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "prop_validation",
+      "severity": "low",
+      "line": 16,
+      "code": "props.width",
+      "description": "Missing prop validation",
+      "suggestion": "Add PropTypes or TypeScript validation"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 16,
+      "code": "const handleClearCache = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 21,
+      "code": "const handleClearSiteCache = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 26,
+      "code": "const handleResetGoogleMaps = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 32,
+      "code": "const handleRemoveScripts = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "11 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 47,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "11 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 93,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 164,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 194,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "21 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "accessibility_issues",
+      "severity": "medium",
+      "line": 68,
+      "code": "<img",
+      "description": "Accessibility issue detected",
+      "suggestion": "Improve accessibility with proper ARIA attributes"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 26,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 32,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 116,
+      "code": "const clearLocation = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 93,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 114,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 117,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 220,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "large_component",
+      "severity": "medium",
+      "line": 1,
+      "code": "Large component (412 lines)",
+      "description": "Component is too large",
+      "suggestion": "Break down into smaller components"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "15 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "prop_validation",
+      "severity": "low",
+      "line": 5,
+      "code": "props.backgroundcolor",
+      "description": "Missing prop validation",
+      "suggestion": "Add PropTypes or TypeScript validation"
+    },
+    {
+      "category": "prop_validation",
+      "severity": "low",
+      "line": 6,
+      "code": "props.color",
+      "description": "Missing prop validation",
+      "suggestion": "Add PropTypes or TypeScript validation"
+    },
+    {
+      "category": "prop_validation",
+      "severity": "low",
+      "line": 9,
+      "code": "props.hoverColor",
+      "description": "Missing prop validation",
+      "suggestion": "Add PropTypes or TypeScript validation"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 38,
+      "code": "function isFalsy(",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 91,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "11 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 17,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 23,
+      "code": "console.error",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "prop_validation",
+      "severity": "low",
+      "line": 35,
+      "code": "props.children",
+      "description": "Missing prop validation",
+      "suggestion": "Add PropTypes or TypeScript validation"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "file_naming",
+      "severity": "low",
+      "line": 1,
+      "code": "Filename: logoHorizontal.tsx",
+      "description": "React component file should be PascalCase",
+      "suggestion": "Use PascalCase for component files"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 60,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 30,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 12,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 13,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 10,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 11,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 37,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 12,
+      "code": "const clickHandler = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 519,
+      "code": "const onDragEndPickup = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 530,
+      "code": "const onDragEndDropOff = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 659,
+      "code": "const handleGetlocate = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 164,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_keys",
+      "severity": "medium",
+      "line": 1,
+      "code": "List rendering without keys",
+      "description": "Missing key props in list rendering",
+      "suggestion": "Add unique key prop to list items"
+    },
+    {
+      "category": "large_component",
+      "severity": "medium",
+      "line": 1,
+      "code": "Large component (752 lines)",
+      "description": "Component is too large",
+      "suggestion": "Break down into smaller components"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "20 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 44,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 71,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_keys",
+      "severity": "medium",
+      "line": 1,
+      "code": "List rendering without keys",
+      "description": "Missing key props in list rendering",
+      "suggestion": "Add unique key prop to list items"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "11 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 48,
+      "code": "const handleConfirmSelected = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "missing_keys",
+      "severity": "medium",
+      "line": 1,
+      "code": "List rendering without keys",
+      "description": "Missing key props in list rendering",
+      "suggestion": "Add unique key prop to list items"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 57,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 22,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 57,
+      "code": "const handleOk = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "large_component",
+      "severity": "medium",
+      "line": 1,
+      "code": "Large component (330 lines)",
+      "description": "Component is too large",
+      "suggestion": "Break down into smaller components"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 91,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "file_naming",
+      "severity": "low",
+      "line": 1,
+      "code": "Filename: optionFeeCpnInOrder.tsx",
+      "description": "React component file should be PascalCase",
+      "suggestion": "Use PascalCase for component files"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 259,
+      "code": "function roundToNextTenMinutes(",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 274,
+      "code": "const selectTime = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 136,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 163,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 317,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 614,
+      "code": "console.error",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "large_component",
+      "severity": "medium",
+      "line": 1,
+      "code": "Large component (816 lines)",
+      "description": "Component is too large",
+      "suggestion": "Break down into smaller components"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "26 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 215,
+      "code": "const hideModalSuccess = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 235,
+      "code": "const handleChangeOperatorOption = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 448,
+      "code": "const hideModalConfirmStep1 = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 451,
+      "code": "const hideModalConfirmStep2 = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 454,
+      "code": "const showModal = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 541,
+      "code": "const handleSelectChargeType = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 545,
+      "code": "const handleClearStoreFormQuotation = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 550,
+      "code": "const handleClearStore = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 296,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 345,
+      "code": "// eslint-disable",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "large_component",
+      "severity": "medium",
+      "line": 1,
+      "code": "Large component (1339 lines)",
+      "description": "Component is too large",
+      "suggestion": "Break down into smaller components"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 851,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 1214,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "32 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 52,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 55,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 58,
+      "code": "console.error",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "16 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 140,
+      "code": "const renderIcon = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 97,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 129,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 133,
+      "code": "console.error",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_keys",
+      "severity": "medium",
+      "line": 1,
+      "code": "List rendering without keys",
+      "description": "Missing key props in list rendering",
+      "suggestion": "Add unique key prop to list items"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 144,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "11 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 38,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 25,
+      "code": "const handleOpenModal = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 43,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 73,
+      "code": "// eslint-disable",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "12 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 38,
+      "code": "const handleModalClose = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 114,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 134,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 31,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 186,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 63,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "13 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_keys",
+      "severity": "medium",
+      "line": 1,
+      "code": "List rendering without keys",
+      "description": "Missing key props in list rendering",
+      "suggestion": "Add unique key prop to list items"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 225,
+      "code": "const handleCloseMapModal = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "missing_keys",
+      "severity": "medium",
+      "line": 1,
+      "code": "List rendering without keys",
+      "description": "Missing key props in list rendering",
+      "suggestion": "Add unique key prop to list items"
+    },
+    {
+      "category": "large_component",
+      "severity": "medium",
+      "line": 1,
+      "code": "Large component (509 lines)",
+      "description": "Component is too large",
+      "suggestion": "Break down into smaller components"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "file_naming",
+      "severity": "low",
+      "line": 1,
+      "code": "Filename: orderDetailForm.tsx",
+      "description": "React component file should be PascalCase",
+      "suggestion": "Use PascalCase for component files"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "16 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "13 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 167,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 92,
+      "code": "const hideModalQuotationAssign = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 107,
+      "code": "const handleClearCondition = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 135,
+      "code": "const hideModalConfirmReject = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 166,
+      "code": "const hideModalSuccess = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "missing_keys",
+      "severity": "medium",
+      "line": 1,
+      "code": "List rendering without keys",
+      "description": "Missing key props in list rendering",
+      "suggestion": "Add unique key prop to list items"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "23 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "missing_keys",
+      "severity": "medium",
+      "line": 1,
+      "code": "List rendering without keys",
+      "description": "Missing key props in list rendering",
+      "suggestion": "Add unique key prop to list items"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 20,
+      "code": "const handleBackClick = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 18,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 19,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "12 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_keys",
+      "severity": "medium",
+      "line": 1,
+      "code": "List rendering without keys",
+      "description": "Missing key props in list rendering",
+      "suggestion": "Add unique key prop to list items"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 82,
+      "code": "const handleCancel = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 27,
+      "code": "const onFinishFailed = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 28,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 69,
+      "code": "const handleClose = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "large_component",
+      "severity": "medium",
+      "line": 1,
+      "code": "Large component (334 lines)",
+      "description": "Component is too large",
+      "suggestion": "Break down into smaller components"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 241,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 253,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 266,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 268,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "12 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "code_smells",
+      "severity": "low",
+      "line": 53,
+      "code": "console.log",
+      "description": "Code smell detected",
+      "suggestion": "Remove debugging code and TODO comments"
+    },
+    {
+      "category": "large_component",
+      "severity": "medium",
+      "line": 1,
+      "code": "Large component (363 lines)",
+      "description": "Component is too large",
+      "suggestion": "Break down into smaller components"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 264,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 288,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "15 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 25,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 27,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 31,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 45,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "inline_styles",
+      "severity": "low",
+      "line": 44,
+      "code": "Inline styles",
+      "description": "Using inline styles",
+      "suggestion": "Consider CSS modules or styled-components"
+    },
+    {
+      "category": "naming_conventions",
+      "severity": "low",
+      "line": 31,
+      "code": "const showConfirmLogout = () =>",
+      "description": "Naming convention violation",
+      "suggestion": "Follow React naming conventions (PascalCase for components)"
+    },
+    {
+      "category": "too_many_imports",
+      "severity": "low",
+      "line": 1,
+      "code": "12 imports",
+      "description": "Too many imports",
+      "suggestion": "Consider code splitting or reducing dependencies"
+    },
+    {
+      "category": "missing_prop_validation",
+      "severity": "medium",
+      "line": 1,
+      "code": "Component without prop validation",
+      "description": "Missing PropTypes or TypeScript validation",
+      "suggestion": "Add PropTypes or use TypeScript for type safety"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_error_handling",
+      "severity": "low",
+      "line": 1,
+      "code": "No error handling",
+      "description": "Missing error boundaries or try-catch",
+      "suggestion": "Add error boundaries for better error handling"
+    },
+    {
+      "category": "missing_optimization",
+      "severity": "low",
+      "line": 1,
+      "code": "Complex component without optimization",
+      "description": "Complex component without performance optimizations",
+      "suggestion": "Consider React.memo, useMemo, or useCallback"
+    }
+  ],
+  "recommendations": [
+    "\u267f Improve accessibility with proper ARIA attributes",
+    "\ud83d\udd12 Add PropTypes or migrate to TypeScript",
+    "\u2702\ufe0f Break large components into smaller ones",
+    "\ud83d\udcac Increase code documentation",
+    "\ud83c\udfa8 Use consistent naming conventions",
+    "\ud83e\uddea Add comprehensive testing",
+    "\ud83d\udd0d Set up ESLint and Prettier",
+    "\ud83d\udcf1 Test accessibility with screen readers",
+    "\u269b\ufe0f Follow React best practices guide",
+    "\ud83d\udd27 Set up automated code quality checks"
+  ]
+}
